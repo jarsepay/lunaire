@@ -1,0 +1,30 @@
+{
+    "name": "lunaire",
+    "version": "1.4.0",
+    "description": "WhatsApp bot using the Baileys library",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js --use-pairing-code"
+    },
+    "keywords": [
+        "whatsapp-bot",
+        "wabot",
+        "baileys"
+    ],
+    "author": "jarsepay",
+    "repository": "https://github.com/jarsepay/lunaire",
+    "license": "MIT",
+    "directories": {
+        "lib": "lib",
+        "plugins": "plugins"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.0",
+        "awesome-phonenumber": "^6.9.0",
+        "baileys-pro": "npm:baileys-pro@latest",
+        "canvas": "^3.1.0",
+        "cheerio": "^1.0.0-rc.12",
+        "qrcode": "^1.5.4"
+    }
+}
