@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai'
 import { uploadToCatbox } from '../../lib/src/function.js'
 
 const sessionFile = './json/ai-session.json'
-const apiKey = { gemini: 'AIzaSyAnT1vW0O77ECndFyReWnm8I_SU4RFG-Cg' }
+const apiKey = { gemini: 'API_KEY' }
 const genAI = new GoogleGenerativeAI(apiKey.gemini)
 const geminiProModel = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' })
 const geminiFlashModel = genAI.getGenerativeModel({
