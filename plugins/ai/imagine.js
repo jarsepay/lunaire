@@ -2,7 +2,7 @@ import fs from 'fs'
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import path from 'path'
 
-const apiKey = { gemini: 'AIzaSyAnT1vW0O77ECndFyReWnm8I_SU4RFG-Cg' }
+const apiKey = { gemini: 'API_KEY' }
 const genAI = new GoogleGenerativeAI(apiKey.gemini)
 
 export const cmd = {
